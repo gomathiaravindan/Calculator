@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+<meta name= "viewport" content ="width=device-width,initial-scale=1.0">
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="calci.css" type = "text/css">
+<link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+<script src="index.js" type="text/javascript">
+   
+</script>
+</head>
+<body>
+    <h1 id="head"><u><strong>COOL CALCULATOR</strong></u></h1>
+    <div class = "container">
+    <form class="form1">
+    <input type="text" id="value2" disabled>
+    <br/><br/>
+    <span><button type="button" value="1" id="b1" onclick="print(this)">1</button>&nbsp;&nbsp;&nbsp;<button type="button" value= "2" id="b2" onclick="print(this)">2</button>&nbsp;&nbsp;&nbsp;<button type="button" id="b3" value="3" onclick="print(this)">3</button>&nbsp;&nbsp;&nbsp;<button type="button" id="b4" value="+" onclick="print(this)">+</button></span>
+    <br/><br/>
+    <span><button type="button" value="4" id="b5" onclick="print(this)">4</button>&nbsp;&nbsp;&nbsp;<button type="button" id="b6" value="5" onclick="print(this)">5</button>&nbsp;&nbsp;&nbsp;<button type="button" id="b7" value="6" onclick="print(this)">6</button>&nbsp;&nbsp;&nbsp;<button type="button" id="b8" value="-" onclick="print(this)">-</button></span>
+    <br/><br/>
+    <span><button type="button" value="7" id="b8" onclick="print(this)">7</button>&nbsp;&nbsp;&nbsp;<button type="button" value= "8" id="b9" onclick="print(this)">8</button>&nbsp;&nbsp;&nbsp;<button type="button" id="b10" value="9" onclick="print(this)">9</button>&nbsp;&nbsp;&nbsp;<button type="button" id="b11" value="*" onclick="print(this)">*</button></span>
+    <br/><br/>
+    <span><button type="button" value="." id="b12" onclick="print(this)">.</button>&nbsp;&nbsp;&nbsp;<button type="button" value= "0" id="b13" onclick="print(this)">0</button>&nbsp;&nbsp;&nbsp;<button type="button" id="b14" value="%" onclick="print(this)">%</button>&nbsp;&nbsp;&nbsp;<button type="button" id="b15" value="/" onclick="print(this)">/</button></span>
+    <br/><br/>
+    <button type="button" value="=" id="b16" onclick="operate(this)">=</button>&nbsp;&nbsp;&nbsp;<button type="button" value="C" id="b17" onclick="print(this)">C</button>
+
+</form>
+</div>
+</body>
